@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-up page</title>
+    <link rel="stylesheet" href="{% static 'sign_up_page/css/styles.css' %}">
+</head>
+<body>
+    <div class="signup-form">
+    <h2>Signup</h2>
+    <form action="{% url 'sign_up_page:sign_up' %}" method="post">
+        {% csrf_token %}
+
+        <label for="id_email">Email:</label>
+        <input type="email" name="email" id="id_email" class="signup-input" required>
+
+        <label for="id_password">Password:</label>
+        <input type="password" name="password" id="id_password" class="signup-input" required>
+
+        <label for="id_confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="id_confirm_password" class="signup-input" required>
+
+        <input type="submit" value="Signup" class="signup-button">
+    </form>
+</div>
+</body>
+</html>
