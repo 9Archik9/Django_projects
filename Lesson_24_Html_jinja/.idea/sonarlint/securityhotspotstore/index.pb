@@ -108,10 +108,6 @@ I
 Å
 Q.idea/sonarlint/securityhotspotstore/0/b/0b4faf654325360e53227713a3518230ef9d9c57,2/b/2b0750ee669042d231d75ce50470dda85e68050e
 w
-G.idea/sonarlint/issuestore/d/7/d74e9d6b58f3cc5de08152e266a4593df682da71,6/f/6fcf83001439e70cb7c5a1b6866656aae5c6ead8
-Å
-Q.idea/sonarlint/securityhotspotstore/d/7/d74e9d6b58f3cc5de08152e266a4593df682da71,5/e/5ef68389f8b54b4a1373ab7791a6c91e62c7f10d
-w
 G.idea/sonarlint/issuestore/4/7/47d4d7f32c9529f39d9c05793be275bd91ca3738,c/d/cd4bbb02cd37797d7b25b03c418a14652a3b3bb3
 Å
 Q.idea/sonarlint/securityhotspotstore/4/7/47d4d7f32c9529f39d9c05793be275bd91ca3738,7/8/786e7f20998911636708dad8a6ff52a0a3d2ff98
