@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script> let csrf_token = "{{ csrf_token }}";</script>
+
+  <title>{{ news_detail.title }}</title>
+ </head>
+ <body>
+  <h1>{{ news_detail.title }}</h1>
+
+  {% if news_detail.image %}
+      <img src="{{ news_detail.image.url }}"  alt="{{ news_detail.title }}"> <br>
+  {% endif %}
+
+  {{ news_detail.content }}
+  <hr>
+
+
+<h2>Comments:</h2>
+<ul>
+  {% for comment in all_comments %}
+    <li>
+      {{ comment.nick_name }}: {{ comment.content }}
+      <span id="likesCount_{{ comment.id }}">{{ comment.likes }}</span> likes,
+      <span id="dislikesCount_{{ comment.id }}">{{ comment.dislikes }}</span> dislikes
+      <button onclick="likeComment({{ comment.id }})">Like</button>
+      <button onclick="dislikeComment({{ comment.id }})">Dislike</button>
+      <a href="#" onclick="replyToComment({{ comment.id }})">Reply</a>
+      <div id="replyForm_{{ comment.id }}" style="display: none;">
+        <form method="post" action="{% url 'add_comment' news_detail.id %}">
+          {% csrf_token %}
+          {{ comment_form.as_p }}
+          <input type="hidden" name="parent_comment_id" value="{{ comment.id }}">
+          <input type="submit" value="Submit Reply">
+        </form>
+      </div>
+      <ul>
+        {% for reply in comment.replies.all %}
+          <li>{{ reply.nick_name }}: {{ reply.content }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<h2>Add a Comment:</h2>
+<form method="post" action="{% url 'add_comment' news_detail.id %}">
+  {% csrf_token %}
+  {{ comment_form.as_p }}
+  <input type="submit" value="Submit Comment">
+</form>
+
+<script>
+function likeComment(commentId) {
+  $.ajax({
+    url: `/comment/${commentId}/like/`,
+    type: 'POST',
+    headers: {'X-CSRFToken': csrf_token},
+    success: function(data) {
+      $('#likesCount_' + commentId).text(data.likes);
+      $('#dislikesCount_' + commentId).text(data.dislikes);
+    },
+    error: function(error) {
+      console.log(error);
+    }
+  });
+}
+
+function dislikeComment(commentId) {
+  $.ajax({
+    url: `/comment/${commentId}/dislike/`,
+    type: 'POST',
+    headers: {'X-CSRFToken': csrf_token},
+    success: function(data) {
+      $('#likesCount_' + commentId).text(data.likes);
+      $('#dislikesCount_' + commentId).text(data.dislikes);
+    },
+    error: function(error) {
+      console.log(error);
+    }
+  });
+}
+
+function replyToComment(commentId) {
+  let formDiv = document.getElementById(`replyForm_${commentId}`);
+  formDiv.style.display = 'block';
+}
+</script>
+
+
+ </body>
+</html>
