@@ -26,11 +26,10 @@ class NewsDetailView(DetailView):
         return context
 
 
-def add_comment(request, pk):
-    if request.method == 'POST':
+class AddCommentView(View):
+    def post(self, request, pk):
         news = get_object_or_404(News, pk=pk)
         form = CommentForm(request.POST)
-        # all_comments = Comment.objects.filter(news=news)
 
         if form.is_valid():
             comment = form.save(commit=False)
@@ -48,7 +47,10 @@ def add_comment(request, pk):
             else:
                 comment.save()
 
-    return redirect('news_detail', pk=pk)
+            comment.count += 1
+            comment.save()
+
+        return redirect('news_detail', pk=pk)
 
 
 class LikeCommentView(View):
@@ -65,3 +67,16 @@ class DislikeCommentView(View):
         comment.dislikes += 1
         comment.save()
         return JsonResponse({'likes': comment.likes, 'dislikes': comment.dislikes})
+
+
+class SortingNewsView(View):
+    def get(self, request):
+        sorting_param = request.GET["name_sorting"]
+        priority_sorting = request.GET["priority_sorting"]
+        news = News.objects.order_by(f'{priority_sorting}{sorting_param}')
+        views = News.objects.order_by(f'{priority_sorting}{sorting_param}')
+        comment_count = News.objects.order_by(f'{priority_sorting}{sorting_param}')
+        return render(
+            request, 'news.html', context={'news': news, 'views': views, 'comment_count':comment_count}
+        )
+

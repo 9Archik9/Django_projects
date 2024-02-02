@@ -1,4 +1,6 @@
 from django.db import models
+from django.dispatch import receiver
+from django.db.models.signals import post_save
 
 
 class News(models.Model):
@@ -10,7 +12,7 @@ class News(models.Model):
     rating = models.FloatField(default=0)
     date = models.DateField(auto_now_add=True)
     views = models.IntegerField(default=0)
-    comments = models.ManyToManyField('Comment', blank=True, related_name='news_comments')
+    comment_count = models.IntegerField(default=0)
 
     def __str__(self):
         return self.title
@@ -28,6 +30,7 @@ class Comment(models.Model):
     dislikes = models.IntegerField(default=0)
     parent_comment = models.ForeignKey('self', null=True, blank=True, on_delete=models.CASCADE, related_name='replies')
     news = models.ForeignKey('News', null=True, blank=True, on_delete=models.CASCADE)
+    count = models.IntegerField(default=0, null=True, blank=True)
 
     def __str__(self):
         return f'Comment by {self.nick_name} on {self.date}'
@@ -39,3 +42,11 @@ class Comment(models.Model):
     def dislike(self):
         self.dislikes += 1
         self.save()
+
+
+@receiver(post_save, sender=Comment)
+def update_comment_count(sender, instance, **kwargs):
+    news = instance.news
+    if news:
+        news.comment_count = Comment.objects.filter(news=news).count()
+        news.save()
