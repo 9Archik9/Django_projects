@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a60ab75a-514f-46a5-a9e8-3dff77608e86" name="Changes" comment="70% of functionality. im give up)">
+      <change afterPath="$PROJECT_DIR$/../.idea/Django_projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lesson_23_Cats_News.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pylint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/012c4af272b32a72dcf02b076b35a4f1f469e0b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8da8f1c113506b84140c481e7f025166e99c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03d37eacd94ef2e63e6c345c527353d9babfd543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/051c4b140fc803ccbd57d0e0af133b1fa349f4f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/052335006599f07d0fc875658260fd704693231b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/057fec7aba4ace17a9555a99a24ec1cd6ba06399" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05bb070f9cba59cd9779294d33073250c8dc3afe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08cd14bf44dd8f43d27dadceb7555692e0120c29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a6fbb2f62f3bf7018aaecfb2fff63f198ea480c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0aae2bfefd5c73331debab55a3159befeee8435b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b0cfaf19126b27f087e2712e30ef08f1b137141" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b581117cb45475b657b7c8f85e1a535f5981d7c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b696534e56bfc9a07c9b1eb7715f1afb6ffd618" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0befb8045135c9a598d770086d2ea73469e690db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bf25f79bf972a10d6546dc59a3480858edbb576" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c33aa6f65a7c5454eb71da52438896a2976c73a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e1c90829ef356b00fb0ed412123adcf13d65bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ea2938e4f50f51c2f8a4f8c593d434681caca3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0efc6dd160a3ab35e266e81922476e3c3c55eebe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f1d45095268343e65a3cd880973cbcfc152a276" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f2147e750bd2dbdfc4bd0b855a904d42138f2a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f82b9bc7fc7efec29b2e4304d3c3edad2055015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0ff8329554d90a16435d004363b08de1e0adb1ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1320b2c8a9ae4a566ce7de2cae57286e364cfd49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/132ce43b93db00030f451b89e8c8ff25134aafdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/135c2897d03d0ac26620af9997c330c2e5cbe3cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/139c7fe4212c2c08d24794f08ea40904b4e3fba6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14de6a303940119395a37718d45daa067db0448f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/156b8df77de15377b7acdd21bb4973b032acaaa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15e38543a9720dc0b541fe72024c6c73dcfb7bcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/166b0d59a65355d48f76e779be6b8ec3d977ed18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/178efe26a326e2f35c3d7236380512246bfced06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17b43fca38473df256dd9c3ef54e45d62846e392" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17cc0d1bbe541b192cf3666266c54a7b94b816e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1831c070b7bfb983a093e6d079fc3e1d7854114d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a3d5949c479f68c04bfbb535931242fe8efe397" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c5a33d7519327563fc742f55a237685484d4669" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d5f85bf7f430c153f0b812a64b92d6dbaaf44a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e097e9c4627d7752c80906a2f216e09dd8f8587" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8a271e4b5b58b22854308e4bf7dfbb6c001fba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1eb10033d40a9996361e0b3d432cf740e5e0d2b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1ffa50a65ff2d86ec389e2e5739657ab4a8791a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/201f4b16c73c5d9b60d4b1369d2de692fe728543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20b60810c7096b25d84469b5d401f5d1269f8ea7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/227b31083b074db442f82e72acda1d0284db8cb4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22d1260f06d1a8098e80d3962573fbbd9088efae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/238cdfe72a5283a55d3cf88b9db3e94383e7c081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/2439e2ec667fb0e566d93da3d3c226c3bc6f9493" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24df95f4a88d3cfcf3df58aaa7382f00c27b04cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2511a7590eb091d560dac1615e6bcef0ceeaffb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25f43a40df90ad7b6bd6bbb43a0d903adf599e12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2835778281d4195c87e82b162be89d14670d3b82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/285c29f0bbbd581cf8d0ed8b7acf7c0ab6241127" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28ded2c1168e8842a6613a6c4e1eda8dc611949d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/292993460477ccfe983eb9dbb206b4af3cc17931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a9b6aa06a8707d4df067641925eb7ee2dd0a120" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b1b6d1d30a9d54512d995c5e0a6995977c8043b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b8cdd31beed7f49883db0988fe57e4618cd62fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b9103d56309e3f54d855f41cb343aeb42a71f7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c888ae56d79e9765d44f965f58aa3fcd8754327" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cd989e267990070976cd507fc97ef0f79f4b6ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d5e66a7cd3817d619d7a0f7d4d51f74eb904e97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e796ddf86eee5c5d136f818ffecdb6f12792380" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2eafd7aef8c701301657d315f65f909ae5ab6204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fe0f1770b065fc71ba5511d372d9d3831386687" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3102bcb3c0f503ac2eb74dd91f359d9124615aa8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31d95f02096c013b104d57668b35e69cb16cc1c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3202110cafbe3925c5d943a7a843ec78dd42df1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3220505c1ab938e4ad587ef3068f3e53362ce049" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32861c10088908e28f85c42ccff93754eef759c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33b018314bd839590e11853b16287f18fe01cd4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/3430a7693e54dbdbdfd7d0f69bc4581c5648ebd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/367c36d4e9b4955238d9e16a7ee8ac63ec6b4722" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37415b83db7824d42a485a2e8016accb85ec2eed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/375f9484284ba9db23de605f2e6fd201bfbd0659" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37e985f72df6b08d5481c706bed0679a3aa7dad5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37fd9363baf40c53ef639b2e84d8a7687b727cfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3914ebc78abf8d3aa9b85cf6eb2cd6a53efcd635" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3932e28efa737bf3a1b22434b10106bb7fb87763" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/398060cf62bb767ee839a8da1749d1dcba3ebd45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b00c688000403137649ed3e8c533285214ffdf1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b430dc438ade7b80cae0a06c0133e8c0f600fdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3babe23744768d4f72c70a6f71a0d32cae6c2133" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c5b9eb35abccdf664dfe3d687e34608873295cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cad87d44652c65409ae4717361b74dcb2a0c997" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d816cf51714be35a857aee7a2a4b8163730091b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d8567376e811baeff240500d5614406f9b9eee8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e241d340e89dcb6b0003a05d692c8a345db5fef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f2ef2db33e4405b5a681e26c85a4b9b9588249c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/403db3febadc0f7faf894de009d1e6921bff28f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/407246a600aac2f2578a9cb18559441bdeb580d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4271ce74bbfce5ce47ab69885460bfd74b1b4451" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4274d677d105124ea75611b4e7cc8d4d3f257a5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42bc68bb12c27f6ca058cf57740d5c4be3a55ac5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42c3d71ac6583e6e8248b4c1701959e4ab879a61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/430773501614b95a16399e626b02f0895e325322" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4630a43b906065ab4b38ceaa66bc3c5e163b769b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46c21c9c67890ce2b26d0fbdf980181899a8d0be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47b9c29e3d37fabf60663dcaa39be894bb1be983" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48121c0840962588ab3cd3ab758f9f75b7458cf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a0ba551e115ba2c51647e17f5d920b794e8be11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a7d7ddec53550416ee0c4a7297eb5cb15945bfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b5fac5aa735658f68625f4d9a5928658c23a89c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c2877b21eb6b5116dac516ecd4449a9275b1b2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cae2f3b118e6030265311879d9700607b5797ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4db42c68bbac1df7301d48917bfc2a28abd90a7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4ded994e940804e857b7c0aff7e25bdc2c92b249" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50d382a067f841fc08573f19300a0197e2d36020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/517a601d89eadf4054d518736b7ed859f4e073c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51bf324885e0d8a2fcf30d66c720132e9eadbd72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53e209b55de359d5448102bde257f93b277d34e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56e8210191376b81a6ab0aecac45429566f36d33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58c6b444ebe61eea75af08b02c7bfbca0f46ec66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59011a1a96ba43aa891d3c8a633d816f1920a14d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5aa0228b974d2f4c42be4598b8fba0c0654afee4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5adc64ea1b5a7ea2f7ce113afa4f75b61e66bacd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e386e8466fd16b8cbc37d8d0e6ac285710eb300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5eb52cefb3db86b6288c84f75fbcdb708cdb9e47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5eed027abb2d09023c77a649568511c5fd7ddd60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f024ca58e33142664bbd92778545ebc5b7d2009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/6025bd27ce6e341f0fffb136148ece417aaec696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/613f0e5393794f4178fed4d6c382deab9fab0cbb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/614966697097706611f390274faaedffbaabb719" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61961a87cb071b0cf19048ed44848854e51b4931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62195094da819b1230c0415ae89ba6de4602cfd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62f7abce0132359333edf2010ff512877569c9e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62f914c5e49d3001ac357015be6f13abc1dc04d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6423d291a5b5a94d62ba0e6f05728b5899ca84cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/659eaf4e0797993adbd9980b1d65556925dd930a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65d815d2dc231ab58e213fe3145404fb2519fcdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/6798b37109435a2fa10479ac1a75191666283bab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a23d7c0bea3f8d5c0411d8d12f0fd3a7c1f3d6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a55ee043d5cebe4fb34fc3efc5eb41115e82d3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6af24a38b8f911f4632cabe723d597db4dee7ff6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b615607befa86a29d7f7ed7e1a71b2a4922cb89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bc05047c2a9c76174a832feed3fe5a9f6ca6514" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bc6c1c2a9bba662dad798a8e4f4b7b0f10ab737" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6dc759da32252bbee4fc12a7d2a8ad14d6f7f51c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e2fb876e94b15987d8a8b59491968d45187f5dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fdbc0b3815e02752280a8072e2b6785ec092fbe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/705c5bf32e20459c9ed5a95dadc0c571f4f53996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7430d1a96a9e73981055ca7c56aaee6a94647aab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74423082d5d12b404547fc1a9e90c2a8c66332c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7483e716166bcaf2a42273afd496f6cd33a0a042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c3b0ef0f50723279ea2dbde17ec19b80b67ec7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7698bc835d6f2ef8db75a1b0786bfa81be3322ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7781e4040dde23efdc313d931eee683482ed8bf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a6c22355dc107a365310119a5ed82406fde703" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7975d5383324c1abb05f97180ee27e4ea75a48bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7acbc9e1a56b773f98f3e9487cb0fa104a035d34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ad5d8b4e3c92e85a712519315c432e5d4bed4ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc228400c504edf83aebbd776014c4f20b260bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d282661441ab138ee96b939070bbe70320c914b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e0a261878792007a267756c78b635138e7a60db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f66578bb3ba362403b0874dbbb8d3e9e733ab4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/813d1b722363cccc7e0f1cd634d761526a1df216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81527966e06240de04555f08a09059c5a7491734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81f6443f9c125a5d5566dbff2cb3ade93218d70d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8208fa825441f9baef66c524a24a2444c1e4c62c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8276789c9627a0bb9c384bb59da707926af893e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/8384a0a23f5a7e7ca79e2756b386a42a8cadd6dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84ecf9d04301885b8448160514955183985d463a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/854d04ab904c2336c4b7b833a54a2366f972556c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8611bd8d09f1f59331cb6aacb25e19f975bd0f3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87751f8409bfab616cc96bee943c1fe7dd7950d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87881ba433324f90ff0761ac4086e8c5126db65d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87e6b1eaf9871445856046ef0b09fe3dd5c5552a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/882fde135d7507e43175669a4a73126fc8acc700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89cc30bae8446c9bb4c51c7ca9a4bb620a5fd95a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a4645becf2900d7308d50f650049377ac4aa8fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c0f253cec168858362e8d963d1e90c902b99887" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c6aadfeef04c6164162cdba5f706b88ebaa2952" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d3cdc865f1d1480acade6c558d8becce1528cf9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8da6384e02c938224688ab38b4bea2ea4f353369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e51bb32fda3fe2076406230722957a4c43238b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8eb09f7860bce2c2ae26ef903b0c3baa77847029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fbb7921d96c882ae5072547811615d8b4bd6378" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fbedc9335e4470c2f9b4edad6eb212e4af21c9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fc9a8bff3d71b7133a263962fcdbcf03dbd38b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9044b679228de89e86ea5059fbf456ba65b0bcab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/9116a2984bbff578f5c77e7bad1486c23635e224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/9154d8b75448028d88f78b8c9b99683db8152895" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/921bf4431b113e1037649429d6ac84d0283e04bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9223589fdbecc6a14584680a71efc911dec94516" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939a0ac5447f6106d836fdc1834a5431d1c9b5b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94170820cd1c26cf059c2258ed98c954225336f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95aebcca31b80485b35334af55ccc1e1ca12c7bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97df4364e0e7ecdd837b217080ae4e453b77805b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97f98c27102ba203460393e0c79f2569c1198652" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9814ec13e60ebb41e7a69d0b7574d6659f428f4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9861b2cd2a8cff04bd31b7ebb3df846044dca4c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98be1fc677b14ca9497936b52be7cd80dea7913f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9921fc15cddc3a0e7be64100cf5c4c3bbf446fc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/998bc6340316b6485c47c9e6d382ae63d854b1e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99c9e961fc63ec35f5f6704515296d85e4da5e7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a68d092d8bcd5cb660d2b6685905e8ce87aa1ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ad2e6b86e2d9dc904060fcd60d70456f13c3382" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b3af90b9d74ca2e9272ae7fd724e2b965e8758c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b5ef3686a11582c76f3dd65651ec430d65021df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bc485d7b5226202ab7f84d256339faa9a5597d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bd6e1d00bc9bb5bcd0465d142b414c73f822e91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c687732e656ec0fa5924d0a2f633d7ce42ab00f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c955f9d31f2dec090a5dab7921c99adc353a1a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e19613180ba50f0341e88c809621723dad9abbb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1d2bbcf3f341f7b7fba16e352140a3df67a41a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1e749265e099fb7e32301f6a630ebd788d650c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a24b6179ef2c67f5d34669ac4d7b08a774c942ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a265a31e6bb779ebc70bd5b601d61f6aa489747f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2a21c63c3e94ce40d11814c5d2bc8837c90f21f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a308700a7dc8c429430bc80f5531cbc605594668" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a363ed34bcb411319ed7227eebd74a6f5755610f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a45a207f5ccf6d4403a3e7b3a290eb32d9c6e660" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4e32afca7ca1b1826375781e4c5f9bd6fad1c02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a55bd828b080880e94cd1adf5d4be7398bf510c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a58014f2f499e7d4259042322829c88fc5b5c5fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5ce1db6a08dda0c3d25a17de5ff262f42b26e8f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a63ecaf3f6fd2bce15e1a4c64e1aac02023bf48a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7cdc9139303bafffeb41f500ff503ab4e63a885" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a82dce3fe3dbbf552ff2c5c61c5a3fd691694427" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a88995e921df793ab9118f685fd11f2404fd49c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aaacdb521bcadf2769cd6c7d9dc1447f18330a3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aadba38db62a97e6d9babf703ec7d669868362c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/acc63d540ea07396b284e528c44f2cf0eb6096ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/adb5e2a67fbefe4e77e8c9573dc6a36026c84a9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af124e43d68ee459dd7f921a1bfb046aefb4ea10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afee4ede45aa66b7ea76b68185123d59028de486" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b008146e1c737242441f830fad49f222ac8c39aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2488a9e585a9670f158c98ec56cbdb7566a4d7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2bea92e5b66b3e40c463cb77e8776e046c9d824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2c3498451ae806d9e337750d0d398da4af2ece3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2e1749c10bcf5f32f0b288adbfee2ed09bf1aed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b388e936b984f94ac8eb6971278cc6818f8e26ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c7388485ac1872519f5135db120efb710a8126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6fedb767187b63bb04cb30efd62b2c9156e79ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7e22999d6716f106a96b755af9d6943fdf43f76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8081166146919c22bc86c4d4531e483bdf1f0cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8259f744a68aaed0b731c08601da44887ab5a27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b83a4e8ff22f6e5f8a7adf18c91a484493bc7065" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaf05ecd6c6f9dffa5615a469fdd637687c7d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb8d3a69fa1718e0acf4a866fab68043433dd22d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bba88eccdaf737d3f83435dcd642a8cad9b79334" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbb53afcd42644c8dc66205527deab348da73934" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc5c4e25cf55f4e59ed71e48ed9476412b6166b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd9f06bbaa0b2ae9a9a7e0b3195072f98e622298" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be200b5a3726f1a4dc9648dcbeef4ce9649bcb52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf73ecdacef54163c2b26cebf1af79b1a73e5a39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfff14e38361d6b5faee2f842beaecf9a084bcfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c12c4336f259c1081f6a5be0821c68c5d2514336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c22f0f4acacfca26b5d67c9902435a3e9b70680e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d5127a1ef6263a6c1841a7e4f055561b731cfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3f5cc743dbda716d136e26545f9ddc944ac3155" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6815151e45aae8be184751b0526c0f25b17080d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c76f3141af33ffe928711146b796c268e63e7c25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7e4b27e4342c077e48494044d0b4fccef508cc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7eb8e83a12aed60f3304f83682f39acd4b415b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8968b6914baf6dbdeb2f983a758de562c13beab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8b55443c544dd7c2c2a880755c447346bae8286" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97e6341ce49b70704c0d81132719c7d2eaca45b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb9206fe7dc70f793eb3f3036697b8b936916d51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ceadb9caa93525a8b88ef93c401eb2294fb13e15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cff949f606da6d00742b06cfa14853ad3c9bfff8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d192ed64c46e2344478695679be536208823f1f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2cf9c5f65d25eca69c32b4c566af59973ade197" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d42f829ec86b3f6c3d4f611838ccdf301bd9e307" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4611a125befa243d9d36c6af3b63609ba6292f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4bf0368ac96b93c498406d6cad960bfd9016ee1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4c6afa746c072480af009530fbf5e586f304d48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5962dfa207e1d840ee070769182437c046ccbcb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d60c01967fde8f478842d7566c1139133bf35e9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d61e362e5d756887762aa96da12770b8bb0ca153" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8dc354e578ccca1ed0456f0fef5d78b46dd531f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d928d46659bc6df530550332721f8639e2a77fea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d965162d6ed28c2f8094bcbcabc77659c50443ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9aabe65ed8fdb30c06f8ded8330a7d247c17665" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db4c8ca0a5ae775c08d70e62fd5c6a018d707757" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd2890b30a437bce98acd8db521e42efa667713d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd8c18bac532b68333e7a897e6d3cf36017f49f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dde0bf5ba37ef41fbc3950a34939175f96c8ddee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de79de67baad21796ca01fada932e15fe4d683ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/dea4b1426d1db925f506e8eeb2230de799df31c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df3a5c32b8280c5fc3d21d172442d2dabcd8a5a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e29090274be13c71acd897a68f2db0a2d37ee7dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4eee9e8720b66b8a3d4101a3f372e8b47db9816" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e65497453eb0942ca7d0923fafba5d3b297e4d4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69651107c91d07059f1054b21645f83f0b09ccd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6f24cb1545c462232d7a8e60cd1f0f30f18e218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7087cf5babbd6d791bb4c0609afa79b6ba6e0ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e802cc3c8ee7cca82ac769f4d95903646eefcfd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e86263512a7cea21e1c94d5d7322d93f0380d104" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e86d980e11e7a57700612d24c52f84690ee34e4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8794d6ada45c1abb94ec918c2fe3b689ef02ddd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e889b26cbcf80719c74e4323cf919b8ac9542419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8ab82843c14c5f7bb68892775a7e90da9e95060" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea26deb3e5327996b4a339302138227e3ecf28f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea55714919605c138d60e05217a4452816cd80ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea559c16441b6ae4736916f590732c1b54b5d68c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ead1ed279b7b363434948e722e4a0416e3ef2de8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb92f130b88dcdad6514f390ff13c502c9c50c53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebcb755cea6d0bb77388885d6d69779cdecd6364" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebfda3883e21dcaf543703c8faffb7c520d6bf54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed7d522da9391f50379a16f4871b849ba84af624" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed93f48a0eb7397e5d32e65071b9165f37eca81d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed9b2e580eea5d1fa42663f35b8c31039ac4739c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efd3aa6bd065812789ed80905809f4d53f89b92f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1095d97b695639fec80d9d47db31010dce0ed65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f11ac0ba646efb775f8fa33fc7096bec624ade08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1c3560b657644e2eadb4ccb1666734d73db97e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f275a5bcd3a0ffab3c6ea2bd87af59513d0ef247" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2f3b624b35c60c8d360b33cd8aede0ebd6c76a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f35b383d0e1c24da97d7dbd761d7e7cd51861c9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f376f757e927ec4c281f8bdad629f9a71e8e04b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4ad56d77886c5bd215801698ffd8a14f28021f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4cf225733bc6084d20b89ebdd03d873cc002385" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5099bdc13362ddc7c5b6b38cab06e2d5a9d0122" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f664b8a5d5e25490b082747bed69885d23798c65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6d4078919312254649c9d6d17a87527000dd723" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f78312e493fe9d44592949163b0456e016653787" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb283d6eb5a47bdf37d3f1d9dca4c6300d411843" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbba99efe06856348b3bc425efe6ced96a90a745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc818d2d967e3f077e0ca511cecf360ca27130c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcc8d83db2e2534f72dc439f6bd7b8a3d78aa50d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdf6ed359f1252ad7b35e2168481d1b5f03fec26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fedecc4da2f7c3c49940af24bce1848dd49c2a66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feea7c6d8553dad2ea36d43674bb4005521b5ff3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff3b87b048469104329f4d2e5c82269798fa4d47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff7a39057f17e0f70ab96ec3bd9cbd976af7bccf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffc9f79ba758b64aac75ae9de8198dc89382150d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/012c4af272b32a72dcf02b076b35a4f1f469e0b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01e8da8f1c113506b84140c481e7f025166e99c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/3/03d37eacd94ef2e63e6c345c527353d9babfd543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/051c4b140fc803ccbd57d0e0af133b1fa349f4f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/052335006599f07d0fc875658260fd704693231b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/057fec7aba4ace17a9555a99a24ec1cd6ba06399" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05bb070f9cba59cd9779294d33073250c8dc3afe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/08cd14bf44dd8f43d27dadceb7555692e0120c29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a6fbb2f62f3bf7018aaecfb2fff63f198ea480c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aae2bfefd5c73331debab55a3159befeee8435b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b0cfaf19126b27f087e2712e30ef08f1b137141" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b581117cb45475b657b7c8f85e1a535f5981d7c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b696534e56bfc9a07c9b1eb7715f1afb6ffd618" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0befb8045135c9a598d770086d2ea73469e690db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0bf25f79bf972a10d6546dc59a3480858edbb576" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0c33aa6f65a7c5454eb71da52438896a2976c73a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0e1c90829ef356b00fb0ed412123adcf13d65bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0ea2938e4f50f51c2f8a4f8c593d434681caca3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0efc6dd160a3ab35e266e81922476e3c3c55eebe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f1d45095268343e65a3cd880973cbcfc152a276" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f2147e750bd2dbdfc4bd0b855a904d42138f2a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f82b9bc7fc7efec29b2e4304d3c3edad2055015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0ff8329554d90a16435d004363b08de1e0adb1ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/1320b2c8a9ae4a566ce7de2cae57286e364cfd49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/132ce43b93db00030f451b89e8c8ff25134aafdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/135c2897d03d0ac26620af9997c330c2e5cbe3cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/139c7fe4212c2c08d24794f08ea40904b4e3fba6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/4/14de6a303940119395a37718d45daa067db0448f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/156b8df77de15377b7acdd21bb4973b032acaaa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/15e38543a9720dc0b541fe72024c6c73dcfb7bcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/166b0d59a65355d48f76e779be6b8ec3d977ed18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/178efe26a326e2f35c3d7236380512246bfced06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17b43fca38473df256dd9c3ef54e45d62846e392" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17cc0d1bbe541b192cf3666266c54a7b94b816e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/1831c070b7bfb983a093e6d079fc3e1d7854114d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/a/1a3d5949c479f68c04bfbb535931242fe8efe397" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1c5a33d7519327563fc742f55a237685484d4669" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d5f85bf7f430c153f0b812a64b92d6dbaaf44a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e097e9c4627d7752c80906a2f216e09dd8f8587" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e8a271e4b5b58b22854308e4bf7dfbb6c001fba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1eb10033d40a9996361e0b3d432cf740e5e0d2b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1ffa50a65ff2d86ec389e2e5739657ab4a8791a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/201f4b16c73c5d9b60d4b1369d2de692fe728543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/20b60810c7096b25d84469b5d401f5d1269f8ea7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/2/227b31083b074db442f82e72acda1d0284db8cb4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/2/22d1260f06d1a8098e80d3962573fbbd9088efae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/238cdfe72a5283a55d3cf88b9db3e94383e7c081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/4/2439e2ec667fb0e566d93da3d3c226c3bc6f9493" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/4/24df95f4a88d3cfcf3df58aaa7382f00c27b04cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/2511a7590eb091d560dac1615e6bcef0ceeaffb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/25f43a40df90ad7b6bd6bbb43a0d903adf599e12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/2835778281d4195c87e82b162be89d14670d3b82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/285c29f0bbbd581cf8d0ed8b7acf7c0ab6241127" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28ded2c1168e8842a6613a6c4e1eda8dc611949d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/292993460477ccfe983eb9dbb206b4af3cc17931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a9b6aa06a8707d4df067641925eb7ee2dd0a120" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b1b6d1d30a9d54512d995c5e0a6995977c8043b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b8cdd31beed7f49883db0988fe57e4618cd62fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b9103d56309e3f54d855f41cb343aeb42a71f7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c888ae56d79e9765d44f965f58aa3fcd8754327" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cd989e267990070976cd507fc97ef0f79f4b6ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2d5e66a7cd3817d619d7a0f7d4d51f74eb904e97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2e796ddf86eee5c5d136f818ffecdb6f12792380" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2eafd7aef8c701301657d315f65f909ae5ab6204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2fe0f1770b065fc71ba5511d372d9d3831386687" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/3102bcb3c0f503ac2eb74dd91f359d9124615aa8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/31d95f02096c013b104d57668b35e69cb16cc1c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/3202110cafbe3925c5d943a7a843ec78dd42df1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/3220505c1ab938e4ad587ef3068f3e53362ce049" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/32861c10088908e28f85c42ccff93754eef759c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33b018314bd839590e11853b16287f18fe01cd4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/3430a7693e54dbdbdfd7d0f69bc4581c5648ebd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/6/367c36d4e9b4955238d9e16a7ee8ac63ec6b4722" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37415b83db7824d42a485a2e8016accb85ec2eed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/375f9484284ba9db23de605f2e6fd201bfbd0659" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37e985f72df6b08d5481c706bed0679a3aa7dad5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37fd9363baf40c53ef639b2e84d8a7687b727cfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/3914ebc78abf8d3aa9b85cf6eb2cd6a53efcd635" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/3932e28efa737bf3a1b22434b10106bb7fb87763" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/398060cf62bb767ee839a8da1749d1dcba3ebd45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3b00c688000403137649ed3e8c533285214ffdf1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3b430dc438ade7b80cae0a06c0133e8c0f600fdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3babe23744768d4f72c70a6f71a0d32cae6c2133" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3c5b9eb35abccdf664dfe3d687e34608873295cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3cad87d44652c65409ae4717361b74dcb2a0c997" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3d816cf51714be35a857aee7a2a4b8163730091b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3d8567376e811baeff240500d5614406f9b9eee8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3e241d340e89dcb6b0003a05d692c8a345db5fef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3f2ef2db33e4405b5a681e26c85a4b9b9588249c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/0/403db3febadc0f7faf894de009d1e6921bff28f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/0/407246a600aac2f2578a9cb18559441bdeb580d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/4271ce74bbfce5ce47ab69885460bfd74b1b4451" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/4274d677d105124ea75611b4e7cc8d4d3f257a5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/42bc68bb12c27f6ca058cf57740d5c4be3a55ac5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/42c3d71ac6583e6e8248b4c1701959e4ab879a61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/430773501614b95a16399e626b02f0895e325322" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/4630a43b906065ab4b38ceaa66bc3c5e163b769b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/46c21c9c67890ce2b26d0fbdf980181899a8d0be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/47b9c29e3d37fabf60663dcaa39be894bb1be983" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/8/48121c0840962588ab3cd3ab758f9f75b7458cf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/a/4a0ba551e115ba2c51647e17f5d920b794e8be11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/a/4a7d7ddec53550416ee0c4a7297eb5cb15945bfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4b5fac5aa735658f68625f4d9a5928658c23a89c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c2877b21eb6b5116dac516ecd4449a9275b1b2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4cae2f3b118e6030265311879d9700607b5797ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4db42c68bbac1df7301d48917bfc2a28abd90a7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4ded994e940804e857b7c0aff7e25bdc2c92b249" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/0/50d382a067f841fc08573f19300a0197e2d36020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/517a601d89eadf4054d518736b7ed859f4e073c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/51bf324885e0d8a2fcf30d66c720132e9eadbd72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/53e209b55de359d5448102bde257f93b277d34e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56e8210191376b81a6ab0aecac45429566f36d33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/8/58c6b444ebe61eea75af08b02c7bfbca0f46ec66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59011a1a96ba43aa891d3c8a633d816f1920a14d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/a/5aa0228b974d2f4c42be4598b8fba0c0654afee4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/a/5adc64ea1b5a7ea2f7ce113afa4f75b61e66bacd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5e386e8466fd16b8cbc37d8d0e6ac285710eb300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5eb52cefb3db86b6288c84f75fbcdb708cdb9e47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5eed027abb2d09023c77a649568511c5fd7ddd60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f024ca58e33142664bbd92778545ebc5b7d2009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/0/6025bd27ce6e341f0fffb136148ece417aaec696" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/613f0e5393794f4178fed4d6c382deab9fab0cbb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/614966697097706611f390274faaedffbaabb719" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/1/61961a87cb071b0cf19048ed44848854e51b4931" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/62195094da819b1230c0415ae89ba6de4602cfd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/62f7abce0132359333edf2010ff512877569c9e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/62f914c5e49d3001ac357015be6f13abc1dc04d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/4/6423d291a5b5a94d62ba0e6f05728b5899ca84cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/5/659eaf4e0797993adbd9980b1d65556925dd930a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/5/65d815d2dc231ab58e213fe3145404fb2519fcdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/6798b37109435a2fa10479ac1a75191666283bab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a23d7c0bea3f8d5c0411d8d12f0fd3a7c1f3d6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a55ee043d5cebe4fb34fc3efc5eb41115e82d3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6af24a38b8f911f4632cabe723d597db4dee7ff6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6b615607befa86a29d7f7ed7e1a71b2a4922cb89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6bc05047c2a9c76174a832feed3fe5a9f6ca6514" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6bc6c1c2a9bba662dad798a8e4f4b7b0f10ab737" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/d/6dc759da32252bbee4fc12a7d2a8ad14d6f7f51c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6e2fb876e94b15987d8a8b59491968d45187f5dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6fdbc0b3815e02752280a8072e2b6785ec092fbe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/705c5bf32e20459c9ed5a95dadc0c571f4f53996" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/7430d1a96a9e73981055ca7c56aaee6a94647aab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/74423082d5d12b404547fc1a9e90c2a8c66332c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/7483e716166bcaf2a42273afd496f6cd33a0a042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/74c3b0ef0f50723279ea2dbde17ec19b80b67ec7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/6/7698bc835d6f2ef8db75a1b0786bfa81be3322ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/7781e4040dde23efdc313d931eee683482ed8bf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/8/78a6c22355dc107a365310119a5ed82406fde703" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/7975d5383324c1abb05f97180ee27e4ea75a48bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7acbc9e1a56b773f98f3e9487cb0fa104a035d34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7ad5d8b4e3c92e85a712519315c432e5d4bed4ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7bc228400c504edf83aebbd776014c4f20b260bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7d282661441ab138ee96b939070bbe70320c914b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e0a261878792007a267756c78b635138e7a60db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f66578bb3ba362403b0874dbbb8d3e9e733ab4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/813d1b722363cccc7e0f1cd634d761526a1df216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81527966e06240de04555f08a09059c5a7491734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81f6443f9c125a5d5566dbff2cb3ade93218d70d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/8208fa825441f9baef66c524a24a2444c1e4c62c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/8276789c9627a0bb9c384bb59da707926af893e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/3/8384a0a23f5a7e7ca79e2756b386a42a8cadd6dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/84ecf9d04301885b8448160514955183985d463a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/854d04ab904c2336c4b7b833a54a2366f972556c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/8611bd8d09f1f59331cb6aacb25e19f975bd0f3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87751f8409bfab616cc96bee943c1fe7dd7950d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87881ba433324f90ff0761ac4086e8c5126db65d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87e6b1eaf9871445856046ef0b09fe3dd5c5552a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/882fde135d7507e43175669a4a73126fc8acc700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/9/89cc30bae8446c9bb4c51c7ca9a4bb620a5fd95a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8a4645becf2900d7308d50f650049377ac4aa8fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/c/8c0f253cec168858362e8d963d1e90c902b99887" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/c/8c6aadfeef04c6164162cdba5f706b88ebaa2952" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/d/8d3cdc865f1d1480acade6c558d8becce1528cf9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/d/8da6384e02c938224688ab38b4bea2ea4f353369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8e51bb32fda3fe2076406230722957a4c43238b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8eb09f7860bce2c2ae26ef903b0c3baa77847029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8fbb7921d96c882ae5072547811615d8b4bd6378" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8fbedc9335e4470c2f9b4edad6eb212e4af21c9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8fc9a8bff3d71b7133a263962fcdbcf03dbd38b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/9044b679228de89e86ea5059fbf456ba65b0bcab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/909762385fc6eb20f922a91c6865741308b57f2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/9116a2984bbff578f5c77e7bad1486c23635e224" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/9154d8b75448028d88f78b8c9b99683db8152895" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/921bf4431b113e1037649429d6ac84d0283e04bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/9223589fdbecc6a14584680a71efc911dec94516" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/939a0ac5447f6106d836fdc1834a5431d1c9b5b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/4/94170820cd1c26cf059c2258ed98c954225336f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/5/95aebcca31b80485b35334af55ccc1e1ca12c7bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97df4364e0e7ecdd837b217080ae4e453b77805b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97f98c27102ba203460393e0c79f2569c1198652" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/8/9814ec13e60ebb41e7a69d0b7574d6659f428f4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/8/9861b2cd2a8cff04bd31b7ebb3df846044dca4c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/8/98be1fc677b14ca9497936b52be7cd80dea7913f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/9921fc15cddc3a0e7be64100cf5c4c3bbf446fc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/998bc6340316b6485c47c9e6d382ae63d854b1e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/99c9e961fc63ec35f5f6704515296d85e4da5e7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9a68d092d8bcd5cb660d2b6685905e8ce87aa1ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9ad2e6b86e2d9dc904060fcd60d70456f13c3382" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b3af90b9d74ca2e9272ae7fd724e2b965e8758c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b5ef3686a11582c76f3dd65651ec430d65021df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9bc485d7b5226202ab7f84d256339faa9a5597d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9bd6e1d00bc9bb5bcd0465d142b414c73f822e91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c687732e656ec0fa5924d0a2f633d7ce42ab00f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c955f9d31f2dec090a5dab7921c99adc353a1a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/e/9e19613180ba50f0341e88c809621723dad9abbb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a1d2bbcf3f341f7b7fba16e352140a3df67a41a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a1e749265e099fb7e32301f6a630ebd788d650c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a24b6179ef2c67f5d34669ac4d7b08a774c942ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a265a31e6bb779ebc70bd5b601d61f6aa489747f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a2a21c63c3e94ce40d11814c5d2bc8837c90f21f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a308700a7dc8c429430bc80f5531cbc605594668" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a363ed34bcb411319ed7227eebd74a6f5755610f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a45a207f5ccf6d4403a3e7b3a290eb32d9c6e660" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a4e32afca7ca1b1826375781e4c5f9bd6fad1c02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a55bd828b080880e94cd1adf5d4be7398bf510c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a58014f2f499e7d4259042322829c88fc5b5c5fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5ce1db6a08dda0c3d25a17de5ff262f42b26e8f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/6/a63ecaf3f6fd2bce15e1a4c64e1aac02023bf48a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a7cdc9139303bafffeb41f500ff503ab4e63a885" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a82dce3fe3dbbf552ff2c5c61c5a3fd691694427" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a88995e921df793ab9118f685fd11f2404fd49c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aaacdb521bcadf2769cd6c7d9dc1447f18330a3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aadba38db62a97e6d9babf703ec7d669868362c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/c/acc63d540ea07396b284e528c44f2cf0eb6096ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/adb5e2a67fbefe4e77e8c9573dc6a36026c84a9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/af124e43d68ee459dd7f921a1bfb046aefb4ea10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/afee4ede45aa66b7ea76b68185123d59028de486" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b008146e1c737242441f830fad49f222ac8c39aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b2488a9e585a9670f158c98ec56cbdb7566a4d7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b2bea92e5b66b3e40c463cb77e8776e046c9d824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b2c3498451ae806d9e337750d0d398da4af2ece3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b2e1749c10bcf5f32f0b288adbfee2ed09bf1aed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b388e936b984f94ac8eb6971278cc6818f8e26ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4c7388485ac1872519f5135db120efb710a8126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b6fedb767187b63bb04cb30efd62b2c9156e79ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b7e22999d6716f106a96b755af9d6943fdf43f76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8081166146919c22bc86c4d4531e483bdf1f0cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8259f744a68aaed0b731c08601da44887ab5a27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b83a4e8ff22f6e5f8a7adf18c91a484493bc7065" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/baaf05ecd6c6f9dffa5615a469fdd637687c7d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bb8d3a69fa1718e0acf4a866fab68043433dd22d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bba88eccdaf737d3f83435dcd642a8cad9b79334" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbb53afcd42644c8dc66205527deab348da73934" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbc5c4e25cf55f4e59ed71e48ed9476412b6166b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bd9f06bbaa0b2ae9a9a7e0b3195072f98e622298" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be200b5a3726f1a4dc9648dcbeef4ce9649bcb52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bf73ecdacef54163c2b26cebf1af79b1a73e5a39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bfff14e38361d6b5faee2f842beaecf9a084bcfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c12c4336f259c1081f6a5be0821c68c5d2514336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c22f0f4acacfca26b5d67c9902435a3e9b70680e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3d5127a1ef6263a6c1841a7e4f055561b731cfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3f5cc743dbda716d136e26545f9ddc944ac3155" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c6815151e45aae8be184751b0526c0f25b17080d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c76f3141af33ffe928711146b796c268e63e7c25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c7e4b27e4342c077e48494044d0b4fccef508cc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c7eb8e83a12aed60f3304f83682f39acd4b415b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c8968b6914baf6dbdeb2f983a758de562c13beab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c8b55443c544dd7c2c2a880755c447346bae8286" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/9/c97e6341ce49b70704c0d81132719c7d2eaca45b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cb9206fe7dc70f793eb3f3036697b8b936916d51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ceadb9caa93525a8b88ef93c401eb2294fb13e15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cff949f606da6d00742b06cfa14853ad3c9bfff8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d192ed64c46e2344478695679be536208823f1f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2cf9c5f65d25eca69c32b4c566af59973ade197" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d42f829ec86b3f6c3d4f611838ccdf301bd9e307" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d4611a125befa243d9d36c6af3b63609ba6292f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d4bf0368ac96b93c498406d6cad960bfd9016ee1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d4c6afa746c072480af009530fbf5e586f304d48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d5962dfa207e1d840ee070769182437c046ccbcb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d60c01967fde8f478842d7566c1139133bf35e9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d61e362e5d756887762aa96da12770b8bb0ca153" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/8/d8dc354e578ccca1ed0456f0fef5d78b46dd531f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d928d46659bc6df530550332721f8639e2a77fea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d965162d6ed28c2f8094bcbcabc77659c50443ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d9aabe65ed8fdb30c06f8ded8330a7d247c17665" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/db4c8ca0a5ae775c08d70e62fd5c6a018d707757" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd2890b30a437bce98acd8db521e42efa667713d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd8c18bac532b68333e7a897e6d3cf36017f49f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dde0bf5ba37ef41fbc3950a34939175f96c8ddee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/e/de79de67baad21796ca01fada932e15fe4d683ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/e/dea4b1426d1db925f506e8eeb2230de799df31c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df3a5c32b8280c5fc3d21d172442d2dabcd8a5a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e29090274be13c71acd897a68f2db0a2d37ee7dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4eee9e8720b66b8a3d4101a3f372e8b47db9816" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/6/e65497453eb0942ca7d0923fafba5d3b297e4d4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/6/e69651107c91d07059f1054b21645f83f0b09ccd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/6/e6f24cb1545c462232d7a8e60cd1f0f30f18e218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e7087cf5babbd6d791bb4c0609afa79b6ba6e0ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e802cc3c8ee7cca82ac769f4d95903646eefcfd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e86263512a7cea21e1c94d5d7322d93f0380d104" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e86d980e11e7a57700612d24c52f84690ee34e4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e8794d6ada45c1abb94ec918c2fe3b689ef02ddd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e889b26cbcf80719c74e4323cf919b8ac9542419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e8ab82843c14c5f7bb68892775a7e90da9e95060" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/ea26deb3e5327996b4a339302138227e3ecf28f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/ea55714919605c138d60e05217a4452816cd80ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/ea559c16441b6ae4736916f590732c1b54b5d68c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/ead1ed279b7b363434948e722e4a0416e3ef2de8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/eb92f130b88dcdad6514f390ff13c502c9c50c53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebcb755cea6d0bb77388885d6d69779cdecd6364" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebfda3883e21dcaf543703c8faffb7c520d6bf54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed7d522da9391f50379a16f4871b849ba84af624" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed93f48a0eb7397e5d32e65071b9165f37eca81d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed9b2e580eea5d1fa42663f35b8c31039ac4739c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/efd3aa6bd065812789ed80905809f4d53f89b92f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f1095d97b695639fec80d9d47db31010dce0ed65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f11ac0ba646efb775f8fa33fc7096bec624ade08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f1c3560b657644e2eadb4ccb1666734d73db97e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f275a5bcd3a0ffab3c6ea2bd87af59513d0ef247" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f2f3b624b35c60c8d360b33cd8aede0ebd6c76a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f35b383d0e1c24da97d7dbd761d7e7cd51861c9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f376f757e927ec4c281f8bdad629f9a71e8e04b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f4ad56d77886c5bd215801698ffd8a14f28021f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f4cf225733bc6084d20b89ebdd03d873cc002385" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/5/f5099bdc13362ddc7c5b6b38cab06e2d5a9d0122" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f664b8a5d5e25490b082747bed69885d23798c65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f6d4078919312254649c9d6d17a87527000dd723" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f78312e493fe9d44592949163b0456e016653787" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/b/fb283d6eb5a47bdf37d3f1d9dca4c6300d411843" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/b/fbba99efe06856348b3bc425efe6ced96a90a745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fc818d2d967e3f077e0ca511cecf360ca27130c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fcc8d83db2e2534f72dc439f6bd7b8a3d78aa50d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fdf6ed359f1252ad7b35e2168481d1b5f03fec26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/fedecc4da2f7c3c49940af24bce1848dd49c2a66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/feea7c6d8553dad2ea36d43674bb4005521b5ff3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ff3b87b048469104329f4d2e5c82269798fa4d47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ff7a39057f17e0f70ab96ec3bd9cbd976af7bccf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ffc9f79ba758b64aac75ae9de8198dc89382150d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0002_alter_news_comment_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/news_images/astron.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/news_images/astron_239y4uT.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/news_images/black_hole.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/news_images/black_hole_sHqrqe0.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0002_rename_parent_comment_parent_comment_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0003_alter_news_comments_alter_news_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0004_remove_news_comments_news_comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0005_comment_news.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2bjCxXfHvB0TvGZ6OTXkuMHTeMe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Django Server.Lesson_23_Cats_News.executor": "Debug",
+    "Django Server.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "lesson__26(23)__cats__news",
+    "last_opened_file_path": "/home/whoami/Django_projects/Django_projects/Lesson_23_Cats_News/media/news_images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/news_images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lesson_23_Cats_News" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Lesson_23_Cats_News" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cats_news.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (Github)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a60ab75a-514f-46a5-a9e8-3dff77608e86" name="Changes" comment="" />
+      <created>1706719348098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706719348098</updated>
+      <workItem from="1706719349142" duration="14839000" />
+      <workItem from="1706739570718" duration="85000" />
+      <workItem from="1706739668339" duration="1064000" />
+      <workItem from="1706892762940" duration="570000" />
+      <workItem from="1706893592749" duration="11169000" />
+      <workItem from="1706910618991" duration="38000" />
+      <workItem from="1706910666565" duration="309000" />
+    </task>
+    <task id="LOCAL-00001" summary="half of the functionalities is done">
+      <option name="closed" value="true" />
+      <created>1706725633465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706725633465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="another half(final for me) of the functionalities is done">
+      <option name="closed" value="true" />
+      <created>1706739384376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706739384376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1706740162350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706740162350</updated>
+    </task>
+    <task id="LOCAL-00004" summary="70% of functionality. im give up)">
+      <option name="closed" value="true" />
+      <created>1706740297850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706740297850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="half of the functionalities is done" />
+    <MESSAGE value="another half(final for me) of the functionalities is done" />
+    <MESSAGE value="init commit" />
+    <MESSAGE value="70% of functionality. im give up)" />
+    <option name="LAST_COMMIT_MESSAGE" value="70% of functionality. im give up)" />
+  </component>
+</project>

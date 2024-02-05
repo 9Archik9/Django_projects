@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe906f94-0f52-41eb-a8bb-d8adf393533f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lesson_24_Html_jinja.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/098891971473358b441211b5a06c9f873bb0153b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b4faf654325360e53227713a3518230ef9d9c57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3acdc8c920ca9c4d35815b3c34fc39cba1353d8b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b1c8369740b590cd137206e5cd2454dc4134dba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/460fd4170f46d883970ce071957e6ace03bba319" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46db66a1ecb09b7e6f60da376d352caea42d1be1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47d4d7f32c9529f39d9c05793be275bd91ca3738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78276384553d9375ec08f2879d5251d1fdc19fdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/919b023a050ce7eb23acace37ea048b23badb48b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e992c565c525e992d869004d822eb07c723bf94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7c451b6da3de9e7528923131c2ffb2df3f4bba4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d74e9d6b58f3cc5de08152e266a4593df682da71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4b7e62bd421af2d8cf5731b42ccbe263effdd19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f69b8ce2e31684ae06f1b3e84821e07e3dfddb2f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/9/098891971473358b441211b5a06c9f873bb0153b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b4faf654325360e53227713a3518230ef9d9c57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3acdc8c920ca9c4d35815b3c34fc39cba1353d8b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3b1c8369740b590cd137206e5cd2454dc4134dba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/460fd4170f46d883970ce071957e6ace03bba319" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/46db66a1ecb09b7e6f60da376d352caea42d1be1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/47d4d7f32c9529f39d9c05793be275bd91ca3738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/8/78276384553d9375ec08f2879d5251d1fdc19fdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/919b023a050ce7eb23acace37ea048b23badb48b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/e/9e992c565c525e992d869004d822eb07c723bf94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b7c451b6da3de9e7528923131c2ffb2df3f4bba4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/7/d74e9d6b58f3cc5de08152e266a4593df682da71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f4b7e62bd421af2d8cf5731b42ccbe263effdd19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f69b8ce2e31684ae06f1b3e84821e07e3dfddb2f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_page/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_jinja_les_24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_jinja_les_24/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_jinja_les_24/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_jinja_les_24/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_jinja_les_24/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_in_page/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/static/sign_up_page/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign_up_page/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/signin_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/signup_page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bOzhTiQWyWcqqUJQkdcJPwtPR2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.Lesson_24_Html_jinja.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/whoami/Django_projects/Django_projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe906f94-0f52-41eb-a8bb-d8adf393533f" name="Changes" comment="" />
+      <created>1706101031946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706101031946</updated>
+      <workItem from="1706101033036" duration="7126000" />
+      <workItem from="1706108692037" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
