@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>News</title>
+ </head>
+ <body>
+  <h1>Astronautics news</h1><br>
+
+  Сортировать: <p>
+  <form action="/sorting-news">
+        <select name="name_sorting" id="">
+            <option value="rating">По рейтингу</option>
+            <option value="views">По колиечству просмотров</option>
+            <option value="comment_count">По колиечству комментариев</option>
+        </select>
+        <select name="priority_sorting" id="">
+            <option value="">От низкого к высокому</option>
+            <option value="-">От высокого к низкому</option>
+        </select>
+        <button>Сортировать</button>
+    </form>
+  
+  <ul>
+    {% for n in news %}
+      <h1>{{ n.title}}</h1>
+
+        {% if n.image %}
+            <img src="{{ n.image.url }}"  alt="{{ n.title }}"> <br>
+        {% endif %}
+
+        {{ n.content|truncatewords:10 }}
+        <a href="{% url 'news_detail' pk=n.id %}">читать далее</a>
+        <hr>
+    {% endfor %}
+</ul>
+
+ </body>
+</html>
